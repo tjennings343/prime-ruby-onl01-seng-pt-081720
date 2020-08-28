@@ -5,7 +5,6 @@ def prime?(num)
     number_range.none? do |pn|
       number % pn == 0
     end
-    true
   else false
   end
 
